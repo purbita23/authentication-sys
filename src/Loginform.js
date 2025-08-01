@@ -51,7 +51,7 @@ export default function Loginform(){
 
     if (res.ok) {
       alert('Login successful!');
-      // you can redirect here or store session/token if needed
+      
     } else {
       alert(data.message || 'Login failed');
     }
